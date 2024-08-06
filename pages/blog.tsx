@@ -4,8 +4,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import { compareDesc, format, parseISO } from 'date-fns'
-import { allPosts } from 'contentlayer/generated'
-import { useMDXComponent } from 'next-contentlayer/hooks'
+//import { allPosts } from 'contentlayer/generated'
+//import { useMDXComponent } from 'next-contentlayer/hooks'
 
 const Blog: NextPage = ({ posts }: any) => {
   return (
@@ -40,9 +40,9 @@ function PostCard(post) {
 
 export default Blog
 
-export async function getStaticProps() {
-  const posts = allPosts.sort((a, b) => {
-    return compareDesc(new Date(a.date), new Date(b.date))
-  })
-  return { props: { posts } }
-}
+//export async function getStaticProps() {
+ // const posts = allPosts.sort((a, b) => {
+   // return compareDesc(new Date(a.date), new Date(b.date))
+  //})
+ // return { props: { posts } }
+//}
