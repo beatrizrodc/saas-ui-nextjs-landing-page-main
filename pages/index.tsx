@@ -65,7 +65,7 @@ const Home: NextPage = () => {
   return (
     <Box>
       <SEO
-        title="Flavrance IT"
+        title="flavrance it"
         description="Serviços de desenvolvimento de software."
       />
       <Box>
@@ -97,16 +97,16 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                Etiam ultrices est id consequat sagittis
-                <Br /> ligula in dapibus
+                Transforme Desafios em Oportunidades de Negócios!
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                Duis et euismod arcu <Em>nec lacus at ipsum mollis consequat sit amet eget metus</Em>
-                <Br /> nec lacus at ipsum mollis consequat sit amet eget metus <Br />{" "}
-                nec lacus at ipsum mollis consequat sit amet eget metus
-              </FallInPlace>
+                Cuide do seu negócio enquanto cuidamos das operações e tecnologia. 
+                <Br>Soluções tecnológicas sob medida para seus objetivos.</Br>
+                <Em>Descubra como podemos elevar o seu negócio a novos patamares.
+                Entre em contato e veja a diferença!</Em>
+                </FallInPlace>
             }
           >
             <FallInPlace delay={0.8}>
