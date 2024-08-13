@@ -89,7 +89,7 @@ const HeroSection: React.FC = () => {
   return (
     <Box position="relative" overflow="hidden">
       <BackgroundGradient height="100%" zIndex="-1" />
-      <Container maxW="container.xl" pt={{ base: 40, lg: 60 }} pb="40">
+      <Container maxW="container.xl" pt={{ base: 40, lg: 47 }} pb="40">
         <Stack direction={{ base: "column", lg: "row" }} alignItems="center">
           <Hero
             id="home"
@@ -102,21 +102,21 @@ const HeroSection: React.FC = () => {
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                Cuide do seu negócio enquanto cuidamos das operações e tecnologia. 
-                <Br>Soluções tecnológicas sob medida para seus objetivos.</Br>
-                <Em>Descubra como podemos elevar o seu negócio a novos patamares.
-                Entre em contato e veja a diferença!</Em>
+                Cuide do seu negócio enquanto cuidamos das operações e tecnologia. Soluções tecnológicas sob medida para seus objetivos.
+                Descubra como podemos elevar o seu negócio a novos patamares. <Br>
+                </Br>
+                <Em>Entre em contato e veja a diferença!</Em>
                 </FallInPlace>
             }
           >
             <FallInPlace delay={0.8}>
               <HStack pt="4" pb="12" spacing="8">
-                <NextjsLogo height="28px" /> <ChakraLogo height="20px" />
+                
               </HStack>
 
               <ButtonGroup spacing={4} alignItems="center">
                 <ButtonLink colorScheme="primary" size="lg" href="/signup">
-                Aliquam erat
+                Test 1
                 </ButtonLink>
                 <ButtonLink
                   size="lg"
@@ -135,7 +135,7 @@ const HeroSection: React.FC = () => {
                     />
                   }
                 >
-                  Aliquam erat
+                  Test 2
                 </ButtonLink>
               </ButtonGroup>
             </FallInPlace>
@@ -159,7 +159,7 @@ const HeroSection: React.FC = () => {
         columns={[1, 2, 4]}
         iconSize={4}
         innerWidth="container.xl"
-        pt="20"
+        pt="12"
         features={[
           {
             title: "Fusce urna ante",
@@ -204,43 +204,12 @@ const HighlightsSection = () => {
 
   return (
     <Highlights>
-      <HighlightsItem colSpan={[1, null, 2]} title="Fusce urna ante">
+      <HighlightsItem colSpan={[1, null, 2]} title="Test">
         <VStack alignItems="flex-start" spacing="8">
           <Text color="muted" fontSize="xl">
-            Fusce urna ante <Em>tempus quis urna eu, gravida</Em>.
-            In quis turpis maximus, dictum orci nec, porttitor ex. Fusce dui purus, 
-            dignissim ac mauris quis, volutpat congue nibh
+            Test
           </Text>
-
-          <Flex
-            rounded="full"
-            borderWidth="1px"
-            flexDirection="row"
-            alignItems="center"
-            py="1"
-            ps="8"
-            pe="2"
-            bg="primary.900"
-            _dark={{ bg: "gray.900" }}
-          >
-            <Box>
-              <Text color="yellow.400" display="inline">
-                yarn add
-              </Text>{" "}
-              <Text color="cyan.300" display="inline">
-                @saas-ui/react
-              </Text>
-            </Box>
-            <IconButton
-              icon={hasCopied ? <FiCheck /> : <FiCopy />}
-              aria-label="Nulla blandit turpis"
-              onClick={onCopy}
-              variant="ghost"
-              ms="4"
-              isRound
-              color="white"
-            />
-          </Flex>
+         
         </VStack>
       </HighlightsItem>
       <HighlightsItem title="Qui enim dignissimos">
@@ -450,16 +419,4 @@ const FaqSection = () => {
 
 export default Home;
 
-export async function getStaticProps() {
-  return {
-    props: {
-      announcement: {
-        title: "Mauris lobortis lorem mauris",
-        description:
-          '<img src="" />',
-        href: "",
-        action: false,
-      },
-    },
-  };
-}
+

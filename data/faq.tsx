@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-const faq = {
+const contact = {
   title: 'Frequently asked questions',
   // description: '',
   items: [
@@ -29,4 +29,4 @@ const faq = {
   ],
 }
 
-export default faq
+export default contact

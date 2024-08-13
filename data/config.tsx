@@ -21,20 +21,11 @@ const siteConfig = {
       },
       {
         id: 'pricing',
-        label: 'Projetos',
+        label: 'Serviços',
       },
       {
-        id: 'faq',
-        label: 'Contato',
-      },
-      {
-        label: 'Login',
-        href: '/login',
-      },
-      {
-        label: 'Sign Up',
-        href: '/signup',
-        variant: 'primary',
+        id: 'contact',
+        label: 'Entrar em Contato',
       },
     ],
   },
