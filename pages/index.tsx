@@ -76,9 +76,7 @@ const Home: NextPage = () => {
         <FeaturesSection />
 
         <TestimonialsSection />
-
-        <PricingSection />
-
+      
         <FaqSection />
       </Box>
     </Box>
@@ -212,49 +210,34 @@ const HighlightsSection = () => {
          
         </VStack>
       </HighlightsItem>
-      <HighlightsItem title="Qui enim dignissimos">
+      <HighlightsItem title="Test">
         <Text color="muted" fontSize="lg">
-        Proin vitae sodales neque. 
-        Aenean aliquam convallis mauris eu viverra. Donec sed diam massa.
+        Some text.
         </Text>
       </HighlightsItem>
       <HighlightsTestimonialItem
-        name="Nulla pulvinar"
-        description="Nulla pulvinar"
-        avatar="/static/images/avatar.jpg"
+        name="Test"
+        description="Test"
+        avatar=""
         gradient={["pink.200", "purple.500"]}
       >
-          “Fusce elit orci, porttitor eu mauris nec, placerat maximus neque. 
-          Mauris lobortis lorem mauris, eu tincidunt tortor iaculis ac. 
-          Proin et arcu sit amet sapien venenatis eleifend eget non nisl. 
-          Nam molestie mauris rutrum massa interdum semper.”
+          “Some text.”
       </HighlightsTestimonialItem>
       <HighlightsItem
         colSpan={[1, null, 2]}
-        title="Vivamus quis felis nec est convallis"
+        title="Text 06"
       >
         <Text color="muted" fontSize="lg">
-          Mauris lobortis lorem mauris, eu tincidunt tortor iaculis ac.
+          Some text.
         </Text>
         <Wrap mt="8">
           {[
-            "Lorem ipsum",
-            "Nunc ut dignissim",
-            "Quisque tempus ut",
-            "Etiam iaculis",
-            "Phasellus ullamcorper",
-            "Aenean sodales",
-            "Nam sed semper",
-            "Quisque arcu nulla",
-            "Nam ultrices ex",
-            "Fusce vestibulum",
-            "Sed porttitor tincidunt",
-            "Sed consequat eu",
-            "Etiam ultrices est",
-            "Mauris aliquet",
-            "Suspendisse non",
-            "Duis et euismod arcu",
-            "Nullam feugiat",
+            "Text1",
+            "Text1",
+            "Text1",
+            "Text1",
+            "Text1",
+            "Text1",            
           ].map((value) => (
             <Tag
               key={value}
@@ -289,10 +272,7 @@ const FeaturesSection = () => {
       }
       description={
         <>
-          Nunc ut dignissim
-          <Br />
-          Porttitor eu mauris nec, placerat maximus neque. 
-          Mauris lobortis lorem mauris, eu tincidunt tortor iaculis ac.
+          Some text.
         </>
       }
       align="left"
@@ -300,71 +280,57 @@ const FeaturesSection = () => {
       iconSize={4}
       features={[
         {
-          title: "Ea minima cupiditate",
+          title: "Text1",
           icon: FiBox,
-          description:
-            "At incidunt laborum et facilis rerum",
+          description:"Text1",
           variant: "inline",
         },
         {
-          title: "Ad molestias quae",
+          title: "Text1",
           icon: FiLock,
-          description:
-            "Ex unde dolorum At dolorum",
+          description: "Text1",
           variant: "inline",
         },
         {
-          title: "Et minima cumque",
+          title: "Text1",
           icon: FiSearch,
-          description:
-            "Est reiciendis vitae est accusamus",
+          description: "Text1",
           variant: "inline",
         },
         {
-          title: "Ad incidunt illo quo.",
+          title: "Text1",
           icon: FiUserPlus,
-          description:
-            "Eos earum dolorem sed voluptatum placeat est aspernatur",
+          description: "Text1",
           variant: "inline",
         },
         {
-          title: "Vel tempore culpa",
+          title: "Text1",
           icon: FiFlag,
-          description:
-            "Sit commodi quisquam qui labore",
+          description: "Text1",
           variant: "inline",
         },
         {
-          title: "Et omnis rerum",
+          title: "Text1",
           icon: FiTrendingUp,
-          description:
-            "Aut fuga exercitationem vero",
+          description:"Text1",
           variant: "inline",
         },
         {
-          title: "Vel Quis optio",
+          title: "Text1",
           icon: FiToggleLeft,
-          description:
-            "Ea repellendus velit et voluptatum",
+          description: "Text1",
           variant: "inline",
         },
         {
-          title: "Aut amet unde sed.",
+          title: "Text1",
           icon: FiTerminal,
-          description:
-            "Ea explicabo magnam ab dolorem molestiae",
+          description:"Text1",
           variant: "inline",
         },
         {
-          title: "Aut eius",
+          title: "Text1",
           icon: FiCode,
-          description: (
-            <>
-              Qui suscipit quia aut harum{" "}
-              <Link href="https://google.com">Ut doloribus</Link>, porro et nobis modi vel 
-              dignissimos velit est facere.
-            </>
-          ),
+          description: "Text1",
           variant: "inline",
         },
       ]}
@@ -403,15 +369,7 @@ const TestimonialsSection = () => {
   );
 };
 
-const PricingSection = () => {
-  return (
-    <Pricing {...pricing}>
-      <Text p="8" textAlign="center" color="muted">
-      Mauris lobortis lorem mauris.
-      </Text>
-    </Pricing>
-  );
-};
+
 
 const FaqSection = () => {
   return <Faq {...faq} />;

@@ -1,36 +1,33 @@
 export default {
-  title: 'Et officia saepe qui',
+  title: 'Text1',
   items: [
     {
-      name: 'Qui ipsam',
-      description: 'Hic tenetur',
+      name: 'Text1',
+      description: 'Text1',
       avatar: '',
       children: (
         <>
-          “Eos omnis rerum aut porro reiciendis est odit voluptatem qui, 
-          dicta eaque et dicta dolorem aut unde nostrum. Qui rerum dolores qui voluptatem”
+          “Some text.”
         </>
       ),
     },
     {
-      name: 'At consequuntur',
-      description: 'Ut quis omnis',
+      name: 'Text1',
+      description: 'Text1',
       avatar: '',
       children: (
         <>
-          “Est amet natus ea perferendis necessitatibus quo explicabo excepturi 
-          aut alias alias et optio eveniet aut quas optio. Aut Quis deleniti ut voluptas”
+          “Some text.”
         </>
       ),
     },
     {
-      name: 'Est magni quae',
-      description: 'Non cumque',
+      name: 'Text1',
+      description: 'Text1',
       avatar: '',
       children: (
         <>
-          “Ut Quis nihil et saepe consequatur ut nihil sequi qui fugiat fuga! 
-          Et dolores magnam aut obcaecati corporis ea dolor impedit et necessitatibus consequatur. ”
+          “Some text.”
         </>
       ),
     },
