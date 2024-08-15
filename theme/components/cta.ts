@@ -6,10 +6,10 @@ const CTA = {
       pb: 28,
     },
     action: {
-      colorScheme: 'primary',
+      colorScheme: 'blue',
     },
     secondaryAction: {
-      colorScheme: 'primary',
+      colorScheme: 'blue',
       variant: 'ghost',
     },
   },
@@ -17,7 +17,7 @@ const CTA = {
     subtle: {},
     solid: {
       wrapper: {
-        bg: 'primary.400',
+        bg: 'blue.400',
       },
       secondaryAction: {
         colorScheme: 'white',

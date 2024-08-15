@@ -12,10 +12,7 @@ const styles = {
       color: 'gray.900',
       bg: 'white',
       fontSize: 'lg',
-      _dark: {
-        color: 'white',
-        bg: 'gray.900',
-      },
+      
     },
   }),
 }
@@ -23,7 +20,7 @@ const styles = {
 export default extendTheme(
   {
     config: {
-      initialColorMode: 'dark',
+      initialColorMode: 'light',
       useSystemColorMode: false,
     },
     styles,

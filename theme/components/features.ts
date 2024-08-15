@@ -15,13 +15,13 @@ const Features = {
     },
     description: {
       fontSize: 'md',
-      color: 'gray.400',
+      color: 'gray.600',
     },
     icon: {
       mb: 3,
       mr: 3,
       p: 2,
-      bg: 'primary.400',
+      bg: 'blue.400',
       color: 'white',
       float: 'left',
     },
@@ -30,17 +30,17 @@ const Features = {
     subtle: {},
     solid: {
       container: {
-        bg: 'primary.400',
+        bg: 'blue.400',
       },
       secondaryAction: {
         colorScheme: 'white',
       },
     },
-    light: ({ colorMode }: any) => ({
+    light: {
       container: {
-        bg: colorMode === 'dark' ? 'gray.700' : 'gray.100',
+        bg: 'gray.100',
       },
-    }),
+    },
   },
   defaultProps: {
     variant: 'subtle',
@@ -69,11 +69,8 @@ export const Feature = {
       mb: 4,
       mr: 4,
       p: 2,
-      bg: mode(
-        'primary.100',
-        transparentize('primary.500', 0.2)(props.theme)
-      )(props),
-      color: mode('primary.700', 'primary.400')(props),
+      bg: 'blue.100',
+      color: 'blue.700',
       float: 'left',
     },
   }),

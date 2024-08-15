@@ -52,7 +52,7 @@ export const HighlightsTestimonialItem: React.FC<
     description,
     avatar,
     children,
-    gradient = ["primary.500", "secondary.500"],
+    gradient = ["blue.500", "blue.500"],
     ...rest
   } = props;
   const theme = useTheme();
