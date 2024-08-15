@@ -162,33 +162,33 @@ const HeroSection: React.FC = () => {
         pt="12"
         features={[
           {
-            title: "Fusce urna ante",
+            title: "Test",
             icon: FiSmile,
-            description: "Curabitur non pretium odio. Curabitur hendrerit viverra eleifend",
+            description: "",
             iconPosition: "left",
             delay: 0.6,
           },
           {
-            title: "Fusce urna ante",
+            title: "Test",
             icon: FiSliders,
             description:
-              "Curabitur non pretium odio. Curabitur hendrerit viverra eleifend",
+              "",
             iconPosition: "left",
             delay: 0.8,
           },
           {
-            title: "Fusce urna ante",
+            title: "Test",
             icon: FiGrid,
             description:
-              "Curabitur non pretium odio. Curabitur hendrerit viverra eleifend",
+              "",
             iconPosition: "left",
             delay: 1,
           },
           {
-            title: "Fusce urna ante",
+            title: "Test",
             icon: FiThumbsUp,
             description:
-              "Curabitur non pretium odio. Curabitur hendrerit viverra eleifend",
+              "",
             iconPosition: "left",
             delay: 1.1,
           },
@@ -283,8 +283,8 @@ const FeaturesSection = () => {
           textAlign="left"
           as="p"
         >
-          Sed consequat eu
-          <Br /> aenean sodales.
+          Test
+          <Br /> testes
         </Heading>
       }
       description={
