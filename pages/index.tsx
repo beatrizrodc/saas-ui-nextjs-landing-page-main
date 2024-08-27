@@ -113,28 +113,10 @@ const HeroSection: React.FC = () => {
               </HStack>
 
               <ButtonGroup spacing={4} alignItems="center">
-                <ButtonLink colorScheme="blue" size="lg" href="/signup">
+                <ButtonLink colorScheme="blue" size="lg" href="/data/services">
                 Serviços
                 </ButtonLink>
-                <ButtonLink
-                  size="lg"
-                  href="https://google.com"
-                  variant="outline"
-                  rightIcon={
-                    <Icon
-                      as={FiArrowRight}
-                      sx={{
-                        transitionProperty: "common",
-                        transitionDuration: "normal",
-                        ".chakra-button:hover &": {
-                          transform: "translate(5px)",
-                        },
-                      }}
-                    />
-                  }
-                >
-                  Test 2
-                </ButtonLink>
+                
               </ButtonGroup>
             </FallInPlace>
           </Hero>
