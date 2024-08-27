@@ -50,27 +50,13 @@ const Login: NextPage = () => {
                 mb={{ base: 0, lg: 16 }}
               />
             </NextLink>
-            <Features
-              display={{ base: 'none', lg: 'flex' }}
-              columns={1}
-              iconSize={4}
-              flex="1"
-              py="0"
-              ps="0"
-              maxW={{ base: '100%', xl: '80%' }}
-              features={siteConfig.signup.features.map((feature) => ({
-                iconPosition: 'left',
-                variant: 'left-icon',
-
-                ...feature,
-              }))}
-            />
+            
           </Box>
           <Center height="100%" flex="1">
             <Box width="container.sm" pt="8" px="8">
               <Auth
                 view="signup"
-                title={siteConfig.signup.title}
+                
                 providers={providers}
                 loginLink={<Link href="/login">Log in</Link>}
               >
