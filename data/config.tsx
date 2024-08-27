@@ -51,34 +51,7 @@ const siteConfig = {
       },
     ],
   },
-  signup: {
-    title: 'In augue nibh, pellentesque vel volutpat non, pellentesque in risus',
-    features: [
-      {
-        icon: FiCheck,
-        title: 'In augue nibh, pellentesque vel volutpat',
-        description: 'Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
-      },
-      {
-        icon: FiCheck,
-        title: 'In augue nibh, pellentesque vel volutpat',
-        description:
-          'Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
-      },
-      {
-        icon: FiCheck,
-        title: 'In augue nibh, pellentesque vel volutpat',
-        description:
-          'Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
-      },
-      {
-        icon: FiCheck,
-        title: 'In augue nibh, pellentesque vel volutpat',
-        description:
-          'Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
-      },
-    ],
-  },
+  
 }
 
 export default siteConfig

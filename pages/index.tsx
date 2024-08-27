@@ -53,7 +53,7 @@ import { Testimonial, Testimonials } from "components/testimonials";
 
 import faq from "data/faq";
 import testimonials from "data/testimonials";
-import pricing from "data/pricing";
+import pricing from "data/services";
 
 import {
   Highlights,
@@ -113,8 +113,8 @@ const HeroSection: React.FC = () => {
               </HStack>
 
               <ButtonGroup spacing={4} alignItems="center">
-                <ButtonLink colorScheme="primary" size="lg" href="/signup">
-                Test 1
+                <ButtonLink colorScheme="blue" size="lg" href="/signup">
+                Serviços
                 </ButtonLink>
                 <ButtonLink
                   size="lg"
@@ -219,7 +219,7 @@ const HighlightsSection = () => {
         name="Test"
         description="Test"
         avatar=""
-        gradient={["pink.200", "purple.500"]}
+        gradient={["white.700", "blue.500"]}
       >
           “Some text.”
       </HighlightsTestimonialItem>
@@ -242,7 +242,7 @@ const HighlightsSection = () => {
             <Tag
               key={value}
               variant="subtle"
-              colorScheme="purple"
+              colorScheme="blue"
               rounded="full"
               px="3"
             >
